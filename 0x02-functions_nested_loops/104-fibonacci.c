@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 98 Fibonacci nums
+ * main - fibonacci <3
  *
- * starting with 1 and 2, followed by a new line
+ * Purpose - no hardcode to be written
  *
- * Return:  0 on (Success)
+ * Return:  0 on Success
  */
 
 int main(void)
 {
-	unsigned long int i;
+	unsigned long int y;
 	unsigned long int bef = 1;
 	unsigned long int aft = 2;
 	unsigned long int l = 1000000000;
@@ -33,7 +33,7 @@ int main(void)
 	aft1 = (aft / l);
 	aft2 = (aft % l);
 
-	for (x = 92; x < 99; ++x)
+	for (y = 92; y < 99; ++y)
 	{
 		printf(", %lu", aft1 + (aft2 / l));
 		printf("%lu", aft2 % l);
@@ -45,3 +45,4 @@ int main(void)
 	printf("\n");
 	return (0);
 }
+
