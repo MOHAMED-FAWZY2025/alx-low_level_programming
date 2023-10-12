@@ -3,14 +3,14 @@
 /**
  * main - fibonacci <3
  *
- * Purpose - no hardcode to be written
+ * Purpose - no hardcode
  *
- * Return:  0 on Success
+ * Return:  (Success)
  */
 
 int main(void)
 {
-	unsigned long int y;
+	unsigned long int i;
 	unsigned long int bef = 1;
 	unsigned long int aft = 2;
 	unsigned long int l = 1000000000;
@@ -33,7 +33,7 @@ int main(void)
 	aft1 = (aft / l);
 	aft2 = (aft % l);
 
-	for (y = 92; y < 99; ++y)
+	for (i = 92; i < 99; ++i)
 	{
 		printf(", %lu", aft1 + (aft2 / l));
 		printf("%lu", aft2 % l);
