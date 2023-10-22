@@ -1,3 +1,6 @@
+#include <stdio.h>
+
+
 /**
  * main - print alphabets in lowercase and upper case except q and e
  *
