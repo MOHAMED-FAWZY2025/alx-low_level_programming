@@ -1,19 +1,18 @@
 #include <stdio.h>
 
-/**
- * main -  entrry point
- *
- * Description: prints the alphabet in lowercase
- *
- * Return: 0 on success
- */
 
+/**
+ * main - program that prints the alphabet in lowercase
+ *
+ *  Return: Always 0.
+ */
 int main(void)
 {
-char letter;
+	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
-		putchar(\n);
-return (0);
+	putchar(letter);
+	putchar('\n');
+	return (0);
 }
+
