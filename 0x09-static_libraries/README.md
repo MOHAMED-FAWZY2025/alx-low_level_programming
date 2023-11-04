@@ -1,0 +1,1 @@
+mk-static _library
